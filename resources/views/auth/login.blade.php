@@ -40,7 +40,7 @@
                     <div>
                         <input id="password" type="password" class="input100" name="password" value="{{ old('password') }}" required autocomplete="password" autofocus  placeholder="Password Address">
                         {{-- <span class="focus-input100" data-placeholder="&#xf207;"></span> --}}
-                        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+                        <span class="focus-input100" data-placeholder="&#xf191;"></span>
 
                         @error('password')
                             <span class="invalid-feedback" role="alert">
