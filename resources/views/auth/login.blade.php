@@ -38,7 +38,7 @@
                     <label class="label_atas"for="password"></label>
 
                     <div>
-                        <input id="password" type="password" class="input100" name="password" value="{{ old('password') }}" required autocomplete="password" autofocus  placeholder="Password Address">
+                        <input id="password" type="password" class="input100" name="password" value="{{ old('password') }}" required autocomplete="password" autofocus  placeholder="Password">
                         {{-- <span class="focus-input100" data-placeholder="&#xf207;"></span> --}}
                         <span class="focus-input100" data-placeholder="&#xf191;"></span>
 
@@ -65,13 +65,15 @@
 
                  </div>
 
-                    <div>
+                    <div class="nav-item" style="text-align: center">
                         @if (Route::has('register'))
-                        <li class="nav-item" style="text-align: center">
+                        
                             <br>
-                            <p style="color: aliceblue">Don't Have Any Account?</p>
-                            <a style="color: aliceblue" class="nav-link" href="{{ route('register') }}">Sign Up Now!</a>
-                        </li>
+                            <p style="color: aliceblue; font-size: 1rem">Don't have any Account? 
+                                <a style="color: aliceblue; font-size: 1rem" class="nav-link" href="{{ route('register') }}">Register.</a>
+                            </p>
+                            
+                    
                     @endif
                     </div>
             </form>

@@ -123,7 +123,7 @@ html {
 .social-media i {
   width: 4rem;
   height: 4rem;
-  border: 0.1rem solid #777;
+  border: 0.1rem solid #828ea6;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -144,10 +144,10 @@ html {
 }
 
 .input-group input {
-  width: 28rem;
-  height: 4.5rem;
+  width: 35rem;
+  height: 5rem;
   padding: 1rem 1rem 1rem 3.5rem;
-  background-color: #eeff;
+  background-color: #fff;
   box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.100);
   border: none;
   border-radius: 1rem;
@@ -158,7 +158,7 @@ html {
   top: 50%;
   left: 1rem;
   transform: translateY(-50%);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #838FA7;
 }
 
@@ -171,8 +171,10 @@ html {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #fff;
-  margin-top: 1rem;
+  margin-top: 2rem;
   cursor: pointer;
+  font-size: 1.8rem;
+  
 }
 
 .signup-form button:hover{
@@ -180,4 +182,5 @@ html {
   color: #fff;
   border-radius: 50px;
   box-shadow: 0px 15px 15px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
 }
