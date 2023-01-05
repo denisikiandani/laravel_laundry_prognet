@@ -79,14 +79,13 @@
     <section id="hero" class="hero">
           <div>
           <!-- class="row" style="height: 732px; margin-top:10px; width:auto" -->
-            <div class="halaman2" style="padding-left: 100px;">
-              <div class="box_50 my-auto hero-tagline" data-aos="fade-right" style="padding-left: 200px" style="padding-top: 500px">
-              <!-- <div class="col-4 my-auto hero-tagline" style="margin-left: 100px"> -->
-                  <h1><span class="fw-bold" data-aos="fade-right" ><br><br>Your One Stop Solution</h1>
-                  <h1><span class="fw-bold" data-aos="fade-right" >For Every Sheets</h1>
-                  <h3><br> Our team service will give you the best <br> laundry experience at Tadika Laundry <br>like you could never imagine before.</h3> <br>
-                  <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
-              </div>
+          <div class="halaman2" style="padding-left: 80px;">
+            <div class="box_50 my-auto hero-tagline" data-aos="fade-right">
+            <!-- <div class="col-4 my-auto hero-tagline" style="margin-left: 100px"> -->
+                <h1><span class="fw-bold" data-aos="fade-right" > <br> Your One Stop <br> Solution for <br> Every Sheets</span></h1>
+                <h3><br> Percayakan laundry Anda pada Service <br> Tadika Laundry yang sudah dipercaya <br> oleh banyak customer.</h3> <br>
+                <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
+            </div>
 
               <div class="gambar_50" data-aos="fade-left">
               <!-- <div class="col img-fluid"> -->
