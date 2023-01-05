@@ -41,7 +41,7 @@
         <link rel="stylesheet" href="css/style.css">
 
         <!-- custom js file link  -->
-        <script src="public/js/pricing-popup.js" defer></script>
+        <script src="js/pricing-popup.js" defer></script>
 
         <!-- Font Link -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,7 +118,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-1.png" alt = "product image">
+                                <img src = "img/item-1.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -157,7 +157,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-2.png" alt = "product image">
+                                <img src = "img/item-2.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -193,7 +193,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-3.png" alt = "product image">
+                                <img src = "img/item-3.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -229,7 +229,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-4.png" alt = "product image">
+                                <img src = "img/item-4.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -268,7 +268,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-5.png" alt = "product image">
+                                <img src = "img/item-5.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -304,7 +304,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-6.png" alt = "product image">
+                                <img src = "img/item-6.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -340,7 +340,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-7.png" alt = "product image">
+                                <img src = "img/item-7.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -376,7 +376,7 @@
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
                             <div class = "product-img" data-aos="zoom-in-up">
-                                <img src = "img/shoe-8.png" alt = "product image">
+                                <img src = "img/item-8.png" alt = "product image">
                             </div>
                             <div class = "product-btns">
                                 <a href="/login">
@@ -440,7 +440,7 @@
          
             <div class="preview" data-target="p-2">
                <i class="fas fa-times"></i>
-               <img src="img/shoe-2.png" alt="">
+               <img src="img/item-2.png" alt="">
                <h3>safari shirt</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -459,8 +459,8 @@
             </div>
          
             <div class="preview" data-target="p-3">
-               <i class="img/shoe-3.png"></i>
-               <img src="images/3.png" alt="">
+               <i class="fas fa-times"></i>
+               <img src="images/item-3.png" alt="">
                <h3>necktie</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -480,7 +480,7 @@
          
             <div class="preview" data-target="p-4">
                <i class="fas fa-times"></i>
-               <img src="img/shoe-4.png" alt="">
+               <img src="img/item-4.png" alt="">
                <h3>men boxer</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -500,7 +500,7 @@
          
             <div class="preview" data-target="p-5">
                <i class="fas fa-times"></i>
-               <img src="img/shoe-5.png" alt="">
+               <img src="img/item-5.png" alt="">
                <h3>unisex suit</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -520,7 +520,7 @@
          
             <div class="preview" data-target="p-6">
                <i class="fas fa-times"></i>
-               <img src="img/shoe-6.png" alt="">
+               <img src="img/item-6.png" alt="">
                <h3>women underwear</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
@@ -540,7 +540,7 @@
 
             <div class="preview" data-target="p-7">
                 <i class="fas fa-times"></i>
-                <img src="img/shoe-7.png" alt="">
+                <img src="img/item-7.png" alt="">
                 <h3>blazer</h3>
                 <div class="stars">
                    <i class="fas fa-star"></i>
@@ -560,7 +560,7 @@
 
              <div class="preview" data-target="p-8">
                 <i class="fas fa-times"></i>
-                <img src="img/shoe-8.png" alt="">
+                <img src="img/item-8.png" alt="">
                 <h3>blazer</h3>
                 <div class="stars">
                    <i class="fas fa-star"></i>
