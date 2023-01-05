@@ -8,7 +8,7 @@
 
 @section('content2')
 <div class="row">
-    <div class="col-12 grid-margin stretch-card">
+    <div class="col-12 grid-margin stretch-card" data-aos="zoom-out-right">
         <div class="card">
             <div class="card-body">
                 <div class="justify-content-between mb-4">

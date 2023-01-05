@@ -210,13 +210,15 @@
             {{-- <button type="submit">
               Sign Up
             </button> --}}
-            <div> 
-            @if (Route::has('login'))
-            {{-- <li class="nav-item"> --}}
-                <a class="nav-link" href="{{ route('login') }}">Already Have an Account? Login Here</a>
-            {{-- </li> --}}
-        @endif
-</div>
+            <div>
+                {{-- <li class="nav-item"> --}}
+                @if (Route::has('login'))
+                <p style="font-size: 1.8rem; ">Already have an account? 
+                    <a style="font-size: 1.8rem; color: #828ea6" class="nav-link" href="{{ route('login') }}">Login.</a>
+                </p>
+                {{-- </li> --}}
+                @endif
+            </div>
 <div class="row mb-0">
             <div class="col-md-6 offset-md-4">
                 <button type="submit" class="btn btn-primary">

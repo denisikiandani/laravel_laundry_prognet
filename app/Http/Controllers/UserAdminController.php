@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\DB;
 
 class UserAdminController extends Controller
 {
@@ -16,9 +17,30 @@ class UserAdminController extends Controller
     public function index()
     {
         $user=User::all();
+        $user = User::whereNotNull('room')->get();
+
+        // $user = User::whereHas('room', function($q){
+        //     $q->where('usertype', '=', '0');
+        // })->get();
+        
         return view('admin.user.index',compact('user'));
     }
 
+    public function view(User $user)
+    {
+        return view('admin.user.view',compact('user'));
+    }
+    public function view_in_admin()
+    {
+        return view('admin.user.detail');
+    }
+
+    public function delete($id)
+    {
+
+        DB::table('users')->where('id', $id)->delete();
+        return redirect('users')->with('message', 'User Delete Succesfully');
+    }
     /**
      * Store a newly created resource in storage.
      *

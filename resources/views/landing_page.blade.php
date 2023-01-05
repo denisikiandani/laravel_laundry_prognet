@@ -48,7 +48,7 @@
                 <a class="nav-link nav-l " href="/pricing" style="color: #0455c0">Pricing</a>
               </li>
               <li class="nav-item mx-0.1">
-                <a class="nav-link nav-l " href="/faq" style="color: #0455c0">FAQ</a>
+                <a class="nav-link nav-l " href="/faq" style="color: #0455c0">FAQs</a>
               </li>
               <li class="nav-item mx-0.1">
                 <a class="nav-link nav-l " href="/contact-create" style="color: #0455c0">Contact</a>
@@ -60,7 +60,7 @@
 
 
                         @if (Route::has('login'))
-                            <a href="{{ route('login') }}" class="btn btn-primary tombol px-4" class="nav-link nav-l " >LOGIN</a>
+                            <a href="{{ route('login') }}" class="btn btn-primary tombol px-4" style="margin-left: 40px">LOGIN</a>
                         @endif
                     {{-- @endauth
                 </div>
@@ -79,14 +79,13 @@
     <section id="hero" class="hero">
           <div>
           <!-- class="row" style="height: 732px; margin-top:10px; width:auto" -->
-            <div class="halaman2" style="padding-left: 100px;">
-              <div class="box_50 my-auto hero-tagline" data-aos="fade-right" style="padding-left: 200px" style="padding-top: 500px">
-              <!-- <div class="col-4 my-auto hero-tagline" style="margin-left: 100px"> -->
-                  <h1><span class="fw-bold" data-aos="fade-right" ><br><br>Your One Stop Solution</h1>
-                  <h1><span class="fw-bold" data-aos="fade-right" >For Every Sheets</h1>
-                  <h3><br> Percayakan laundry Anda pada Service <br> Tadika Laundry yang sudah dipercaya <br> oleh banyak customer.</h3> <br>
-                  <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
-              </div>
+          <div class="halaman2" style="padding-left: 80px;">
+            <div class="box_50 my-auto hero-tagline" data-aos="fade-right">
+            <!-- <div class="col-4 my-auto hero-tagline" style="margin-left: 100px"> -->
+                <h1><span class="fw-bold" data-aos="fade-right" > <br> Your One Stop <br> Solution for <br> Every Sheets</span></h1>
+                <h3><br> Percayakan laundry Anda pada Service <br> Tadika Laundry yang sudah dipercaya <br> oleh banyak customer.</h3> <br>
+                <a class="btn btn-primary tombol px-4" href="#how">Swipe Down</a>
+            </div>
 
               <div class="gambar_50" data-aos="fade-left">
               <!-- <div class="col img-fluid"> -->
@@ -137,9 +136,9 @@
 
     <!-- Tulisan Bergerak -->
     <div class="tulisan my-auto">
-      <marquee  behavior="slide" bgcolor="#0455C0" loop= "20"  >
+      <marquee  behavior="slide" bgcolor="#0455C0" loop="20">
         <div class="row my-auto">
-          <div class="col-2" style="padding: 5px">
+          <div class="col-2" style="padding: 10px">
               <center>15% Off<br>All Clothes<br></center> 
           </div>
           <div class="col-2">
@@ -166,7 +165,7 @@
     <div class="coverhow" id="how">
           <center>
               <h1 class="judulpage" style="padding-top: 100px" data-aos="fade-down">How Tadika Laundry Works</h1> <br>
-              <p class="isi" style="padding-bottom: -50px" data-aos="fade-down">Kami berusaha semaksimal mungkin untuk layanan laundry kami</p>
+              <p class="isi" style="padding-bottom: -50px" data-aos="fade-down">We try our best for our laundry services for every guests.</p>
           </center>
 
         <div class="card-container">
@@ -174,7 +173,7 @@
                 <div class="card-image one"></div>
                     <div class="card-text text-how" >
                     <span class="name">Order</span>
-                    <p>Pesan laundry dan pilih jenis <br> laundry Anda.</p>
+                    <p>Put an order for the laundry <br> and get us ready.</p>
                 </div>
             </div>
     
@@ -182,7 +181,7 @@
                 <div class="card-image two"></div>
                     <div class="card-text text-how">
                     <span class="name">Wait</span>
-                    <p>Nantikan pesanan Anda <br> sampai estimasi waktu <br> yang tertera di sistem.</p>
+                    <p>Spare us some time, until <br> your every sheets are ready.</p>
                 </div>
             </div>
     
@@ -190,7 +189,7 @@
                 <div class="card-image three"></div>
                     <div class="card-text text-how">
                     <span class="name">Deliver</span>
-                    <p>Kami akan dapat mengantar <br> langsung laundry ke <br> kamar hotel Anda.</p>
+                    <p>Worry no more, we can deliver <br> all your sheets back to you.</p>
                 </div>
             </div>
         </div>
@@ -202,7 +201,7 @@
           <div class="row" data-aos="fade-right">
             <div class="col-12 text-center">
               <h1>Every Sheet Will Be Totally Clean</h1>
-              <h2>Mulai dari vest kesayangan Anda, kemeja, celana, kaos <br> bahkan sepatu akan kami bersihkan dengan sepenuh hati.</h2>
+              <h2>Any kind of shirts, variants of trousers, even your foot<br> accompanion will get the best results.</h2>
             </div>
           </div>
           <!-- Bagian Jenis-Jenisnya -->
@@ -253,7 +252,7 @@
   <section class="why">
     <div class="container-bg">
       <center><div class="coverbg">
-        <center><h2 class="text-why" data-aos="fade-down-right">  Why Tadika Laundry?</h2></center>
+        <center><h1 class="text-why" data-aos="fade-down-right">Why Tadika Laundry?</h1></center>
     
         <center>
             <div class="container-why">
@@ -264,7 +263,7 @@
                         </div>
                         <div class="course-info">
                             <h2>Clean</h2>
-                            <p>Laundry Anda pasti kembali dengan bersih</p>
+                            <p>Laundry experience must be as clean as it should</p>
                         </div>
                     </div>
                 </div>
@@ -276,7 +275,7 @@
                         </div>
                         <div class="course-info">
                             <h2>Quick</h2>
-                            <p>Laundry Anda pasti selesai dengan cepat dan tepat waktu</p>
+                            <p>Laundry experience has never be this quick</p>
                         </div>
                     </div>
                 </div>
@@ -288,7 +287,7 @@
                         </div>
                         <div class="course-info">
                             <h2>Fresh</h2>
-                            <p>Laundry Anda kembali tanpa bau apek dan penuh dengan wangi</p>
+                            <p>Laundry experience will get your sheets fragranced</p>
                         </div>
                     </div>
                 </div>
@@ -300,7 +299,7 @@
                         </div>
                         <div class="course-info">
                             <h2>Trusted</h2>
-                            <p>Testimoni terpercaya oleh banyak customer pada service kami</p>
+                            <p>We've been trusted since 2022 with a lot of customers</p>
                         </div>
                     </div>
                 </div>
@@ -335,19 +334,19 @@
           <div class="col-4 fotoService" data-aos="zoom-in-up">
             <img src="img/MachineWash.png" alt="" width="166px" height="142px">
             <h1>Wash</h1>
-            <h2>Mulai dari vest kesayangan Anda, kemeja, celana, kaos bahkan sepatu akan bersih.</h2>
+            <h2>Your day to day clothes won't be a big deal for us to wash.</h2>
           </div>
 
           <div class="col-4 fotoService" data-aos="zoom-in-up">
             <img src="img/DripDry.png" alt="" width="166px" height="142px ">
             <h1>Dry</h1>
-            <h2>Semua pakaian anda akan kering dengan sempurna dan tepat waktu.</h2>
+            <h2>Any time you want, we will try to make ur oder ready and dry.</h2>
           </div>
 
           <div class="col-4 fotoService" data-aos="zoom-in-up">
             <img src="img/Iron.png" alt="" width="166px" height="142px">
             <h1>Iron</h1>
-            <h2>Menggunakan setrika premium, sehingga pakaian anda akan rapi setelah kami laundry.</h2>
+            <h2>We make sure every clothes iront perfectly for you.</h2>
           </div>
       </div>
     </section>
@@ -432,11 +431,11 @@
           <h2 style="color:white">More About Tadika Laundry?</h2>
               <button class="floating-button fbtn"> 
                 <div>
-              <a href="https://instagram.com/laundrytadika?igshid=YmMyMTA2M2Y="  style="text-decoration:none" style="color:white" > Get in Touch 
+              <a href="https://instagram.com/laundrytadika?igshid=YmMyMTA2M2Y="  style="text-decoration: none;"> Get in Touch</a> 
               </button>
     
               <button class="floating-button fbtn">
-                  View our FAQs
+                  <a href="/faq" style="text-decoration: none">View Our FAQs</a>
               </button>
               </center>
       </div>
@@ -445,9 +444,9 @@
       <div class="container footer-con" data-aos="fade-up">
           <div class="row ftr">
               <div class="footer-col">
-                  <h4 class="judul-footer">Follow Our Social</h4>
+                  <h4 class="judul-footer" style="margin-left: 2rem">Follow Our Social</h4>
                   <ul>
-                      <li><a href="https://instagram.com/laundrytadika?igshid=YmMyMTA2M2Y=">@laundrytadika</a></li>
+                      <li><a style="text-align: left" href="https://instagram.com/laundrytadika?igshid=YmMyMTA2M2Y=">@laundrytadika</a></li>
                   </ul>
               </div>
               <div class="footer-col">
@@ -457,24 +456,24 @@
                   </ul>
               </div>
               <div class="footer-col">
-                  <h4 class="judul-footer">Helpful links</h4>
+                  <h4 class="judul-footer"style="margin-left: -2rem">Helpful links</h4>
                   <ul>
                       <li><a href="">About Tadika Hotel</a></li>
                   </ul>
               </div>
               <div class="footer-col">
-                  <h4 class="judul-footer">Terms</h4>
+                  <h4 class="judul-footer" style="margin-left: -2.5rem">Terms</h4>
                   <ul>
-                      <li><a href="">T&Cs</a></li>
+                      <li><a href=""style="margin-left: -4rem">T & Cs</a></li>
                       <li><a href="">Privacy Policy</a></li>
                   </ul>
               </div>
               <div class="footer-col">
-                  <h4 class="judul-footer">Our Location</h4>
+                  <h4 class="judul-footer" >Our Location</h4>
                   <ul>
-                      <li><a href="">Jimbaran</a></li>
-                      <li><a href="">Ubud</a></li>
-                      <li><a href="">Denpasar</a></li>
+                      <li><a href="" style="margin-left: -3.7rem">Jimbaran</a></li>
+                      <li><a href=""style="margin-left: -5rem">Ubud</a></li>
+                      <li><a href=""style="margin-left: -3rem">Denpasar</a></li>
                   </ul>
               </div>
           </div>
