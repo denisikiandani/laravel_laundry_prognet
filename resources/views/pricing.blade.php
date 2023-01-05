@@ -110,7 +110,7 @@
 
         <div class = "products">
             <div class = "container">
-                <h1 class = "lg-title">Our Pricing</h1>
+                <h1 class = "lg-title" data-aos="fade-up">Our Pricing</h1>
                 <p class = "text-light">Every sheets of yours will be shown here. Check the price now and order immediately.</p>
 
                 <div class = "product-items">
@@ -134,7 +134,7 @@
 
                         <div class = "product-info">
                             <div class = "product-info-top">
-                                <h2 class = "sm-title">men's clothing</h2>
+                                <h2 class = "sm-title">men's clotlaundryhing</h2>
                                 <!--<div class = "rating">
                                     <span><i class = "fas fa-star"></i></span>
                                     <span><i class = "fas fa-star"></i></span>
@@ -144,13 +144,13 @@
                                 </div>-->
                             </div>
                             <a href = "#" class = "product-name">t-shirt</a>
-                            <p class = "product-price-disc">Rp30.000</p>
+                            <!--<p class = "product-price-disc">Rp30.000</p>-->
                             <p class = "product-price">Rp22.000</p>
                         </div>
 
-                        <div class = "off-info">
+                        <!--<div class = "off-info">
                             <h2 class = "sm-title">26% off</h2>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- end of single product 1 -->
                     <!-- single product 2 -->
@@ -183,7 +183,7 @@
                                 </div>-->
                             </div>
                             <a href = "#" class = "product-name">safari shirt</a>
-                            <br>
+                            
                             <!-- <p class = "product-price">Rp40.000</p> -->
                             <p class = "product-price">Rp30.000</p>
                         </div>
@@ -219,7 +219,7 @@
                                 </div>-->
                             </div>
                             <a href = "#" class = "product-name">necktie</a>
-                            <br>
+                            
                             <!-- <p class = "product-price">Rp30.000</p> -->
                             <p class = "product-price">Rp22.000</p>
                         </div>
@@ -255,13 +255,13 @@
                                 </div>-->
                             </div>
                             <a href = "#" class = "product-name">men boxer</a>
-                            <p class = "product-price-disc">Rp15.000</p>
+                            <!--<p class = "product-price-disc">Rp15.000</p>-->
                             <p class = "product-price">Rp10.000</p>
                         </div>
 
-                        <div class = "off-info">
+                        <!--<div class = "off-info">
                             <h2 class = "sm-title">25% off</h2>
-                        </div>
+                        </div>-->
                     </div>
                     <!-- end of single product 4 -->
                     <!-- single product 5 -->
@@ -295,7 +295,7 @@
                             </div>
                             <a href = "#" class = "product-name">unisex suit</a>
                             <!-- <p class = "product-price">$ 150.00</p> -->
-                            <br>
+                            
                             <p class = "product-price">Rp27.000</p>
                         </div>
                     </div>
@@ -331,7 +331,7 @@
                             </div>
                             <a href = "#" class = "product-name">women underwear</a>
                             <!-- <p class = "product-price">$ 150.00</p> -->
-                            <br>
+                            
                             <p class = "product-price">Rp10.000</p>
                         </div>
                     </div>
@@ -367,7 +367,7 @@
                             </div>
                             <a href = "#" class = "product-name">blazer</a>
                             <!-- <p class = "product-price">$ 150.00</p> -->
-                            <br>
+                            
                             <p class = "product-price">Rp22.000</p>
                         </div>
                     </div>
@@ -402,12 +402,12 @@
                                 </div>-->
                             </div>
                             <a href = "#" class = "product-name">towel</a>
-                            <p class = "product-price-disc">Rp20.000</p>
+                            <!--<p class = "product-price-disc">Rp20.000</p>-->
                             <p class = "product-price">Rp10.000</p>
                         </div>
 
-                        <div class = "off-info">
-                            <h2 class = "sm-title">35% off</h2>
+                        <!--<div class = "off-info">
+                            <h2 class = "sm-title">35% off</h2>-->
                         </div>
                     </div>
                     <!-- end of single product 8 -->
@@ -431,7 +431,7 @@
                   <span>( 250 )</span>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-               <div class="price">$2.00</div>
+               <div class="price">Rp22.000</div>
                <div class="buttons">
                   <a href="#" class="buy">wash now</a>
                   <a href="#" class="cart">add to cart</a>
@@ -451,7 +451,7 @@
                   <span>( 250 )</span>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-               <div class="price">$2.00</div>
+               <div class="price">Rp30.000</div>
                <div class="buttons">
                   <a href="#" class="buy">wash now</a>
                   <a href="#" class="cart">add to cart</a>
@@ -471,7 +471,7 @@
                   <span>( 250 )</span>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-               <div class="price">$2.00</div>
+               <div class="price">Rp22.000</div>
                <div class="buttons">
                   <a href="#" class="buy">wash now</a>
                   <a href="#" class="cart">add to cart</a>
@@ -491,7 +491,7 @@
                   <span>( 250 )</span>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-               <div class="price">$2.00</div>
+               <div class="price">Rp10.000</div>
                <div class="buttons">
                   <a href="#" class="buy">wash now</a>
                   <a href="#" class="cart">add to cart</a>
@@ -511,7 +511,7 @@
                   <span>( 250 )</span>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-               <div class="price">$2.00</div>
+               <div class="price">Rp27.000</div>
                <div class="buttons">
                   <a href="#" class="buy">wash now</a>
                   <a href="#" class="cart">add to cart</a>
@@ -531,7 +531,7 @@
                   <span>( 250 )</span>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-               <div class="price">$2.00</div>
+               <div class="price">Rp10.000</div>
                <div class="buttons">
                   <a href="#" class="buy">wash now</a>
                   <a href="#" class="cart">add to cart</a>
@@ -551,7 +551,7 @@
                    <span>( 250 )</span>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                <div class="price">$2.00</div>
+                <div class="price">Rp22.000</div>
                 <div class="buttons">
                    <a href="#" class="buy">wash now</a>
                    <a href="#" class="cart">add to cart</a>
@@ -571,7 +571,7 @@
                    <span>( 250 )</span>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
-                <div class="price">$2.00</div>
+                <div class="price">Rp10.000</div>
                 <div class="buttons">
                    <a href="#" class="buy">wash now</a>
                    <a href="#" class="cart">add to cart</a>
