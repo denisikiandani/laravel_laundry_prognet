@@ -8,7 +8,7 @@
 
 @section('content2')
 <div class="row">
-  <div class="col-md-6 grid-margin stretch-card">
+  <div class="col-md-6 grid-margin stretch-card" data-aos="flip-right">
     <div class="card">
       <div class="card-people">
         <img src="admin/images/dashboard/laundry.jpg" alt="people" >
@@ -17,7 +17,7 @@
   </div>
   <div class="col-md-6 grid-margin transparent">
     <div class="row">
-      <div class="col-md-6 mb-4 stretch-card transparent">
+      <div class="col-md-6 mb-4 stretch-card transparent" data-aos="flip-right">
         <div class="card card-tale">
           <div class="card-body">
             <center> 
@@ -27,7 +27,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 mb-4 stretch-card transparent">
+      <div class="col-md-6 mb-4 stretch-card transparent" data-aos="flip-right">
         <div class="card card-dark-blue">
           <div class="card-body">
             <center> 
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+      <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent" data-aos="flip-right">
         <div class="card card-light-blue">
           <div class="card-body">
             <center> 
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 stretch-card transparent">
+      <div class="col-md-6 stretch-card transparent" data-aos="flip-right">
         <div class="card card-light-danger">
           <div class="card-body">
             <p class="mb-4">Number of Clients</p>
