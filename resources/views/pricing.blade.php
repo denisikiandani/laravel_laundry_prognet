@@ -61,7 +61,7 @@
     <body>
         <!-- NavBar -->
         <div style="width:100%;" data-aos="fade-down">
-            <nav class="navbar navbar-expand-lg navbar-light navigasi" style="width: 50%;">
+            <nav class="navbar navbar-expand-lg navbar-light navigasi" style="width: 100%;">
                   <div class="container cnav" style="width: 100%;">
                       <img src="img/logo.png" alt="Bootstrap" width="" height="76">
                       <a class="navbar-brand nav-b ms-4" style="color: #0455c0" href="#">Tadika Laundry</a>
@@ -71,13 +71,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav" >
                         <li class="nav-item nav-i">
-                          <a class="nav-link  nav-l active" aria-current="page" href="/register" style="color: #0455c0">Home</a>
+                          <a class="nav-link  nav-l active" aria-current="page" href="/" style="color: #0455c0">Home</a>
                         </li>
                         <li class="nav-item mx-0.1">
-                          <a class="nav-link nav-l " href="#varian" style="color: #0455c0">Service</a>
+                          <a class="nav-link nav-l " href="/login" style="color: #0455c0">Service</a>
                         </li>
                         <li class="nav-item mx-0.1">
-                          <a class="nav-link nav-l " href="/pricing" style="color: #18191a">Pricing</a>
+                          <a class="nav-link nav-l " href="/pricing" style="color: #0455c0">Pricing</a>
                         </li>
                         <li class="nav-item mx-0.1">
                           <a class="nav-link nav-l " href="/faq" style="color: #0455c0">FAQ</a>
@@ -86,9 +86,22 @@
                           <a class="nav-link nav-l " href="/contact-create" style="color: #0455c0">Contact</a>
                         </li>
                         <li class="nav-item mx-0.1">
-                          <a class="btn btn-primary tombol px-4" style="margin-left: 50px" href="/register">REGIS</a>
+                          {{-- @if (Route::has('login'))
+                          <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                              @auth --}}
+          
+          
+                                  @if (Route::has('login'))
+                                      <a href="{{ route('login') }}" class="btn btn-primary tombol px-4 mx-5" class="nav-link nav-l " >LOGIN</a>
+                                  @endif
+                              {{-- @endauth
+                          </div>
+                      @endif --}}
+                          {{-- <a class="btn btn-primary tombol px-4" style="margin-left: 50px" href="/register">REGIS</a> --}}
                         </li>
                       </ul>
+          
+              
                     </div>
                   </div>
                 </nav>
