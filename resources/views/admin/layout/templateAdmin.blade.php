@@ -339,6 +339,21 @@
 
   <!-- End plugin js for this page -->
   <!-- inject:js -->
+  <script src="admin/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  {{-- <script src=".admin/vendors/chart.js/Chart.min.js"></script> --}}
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="admin/js/off-canvas.js"></script>
+  <script src="admin/js/hoverable-collapse.js"></script>
+  <script src="admin/js/template.js"></script>
+  <script src="admin/js/settings.js"></script>
+  <script src="admin/js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  {{-- <script src="admin/js/chart.js"></script> --}}
+
   <script src="admin/js/off-canvas.js"></script>
   <script src="admin/js/hoverable-collapse.js"></script>
   <script src="admin/js/template.js"></script>
@@ -353,8 +368,48 @@
   <script src="admin/js/Chart.roundedBarCharts.js"></script>
   <!-- End custom js for this page-->
   <script>//code.jquery.com/jquery-3.5.1.js</script>
-<script></script>
+  {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+  var_ydata=JSON.parse('{ !!json_encode($month) !!}');
+</script>
+<script>
+  var lineChartCanvas = $("#lineChart").get(0).getContext("2d");
+    var lineChart = {
+      labels:[
+        @foreach($data as $data)
+          '{{ $service->category }}',
+        @endforeach
+      ],
+      datasets:[
+          data:[
+            @foreach($data as $service)
+              '{{ $service->jumlah }}',
+            @endforeach
+          ],       
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(153, 102, 255, 0.2)',
+            'rgba(255, 159, 64, 0.2)'
+          ],
+          borderColor: [
+            'rgba(255,99,132,1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)',
+            'rgba(255, 159, 64, 1)'
+          ],
+          borderWidth: 1,
+          fill: false
+      ]
 
+    }
+
+
+</script> --}}
 </body>
 
 </html>
