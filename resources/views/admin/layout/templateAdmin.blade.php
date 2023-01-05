@@ -333,6 +333,21 @@
               </ul>
             </div>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+              <i class="icon-bar-graph menu-icon"></i>
+              <span class="menu-title">Users Orders</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                {{-- <li class="nav-item"><a class="nav-link" href={{ url('category') }}>Category</a></li> --}}
+                <li class="nav-item"><a class="nav-link" href={{ url('admin-order') }}>Orders</a></li>
+              </ul>
+            </div>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
               <i class="icon-bar-graph menu-icon"></i>

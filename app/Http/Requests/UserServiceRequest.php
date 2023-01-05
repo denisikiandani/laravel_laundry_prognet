@@ -13,7 +13,7 @@ class UserServiceRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,18 @@ class UserServiceRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'category'=>[
+                'string'
+            ],
+            'product'=>[
+                'required',
+                'string'
+            ],
+            'price'=>[
+                'required',
+                'integer'
+            ],
+            'image'=>'mimes:jpg,jpeg,png|image|max:2048'
         ];
     }
 }

@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="admin/vendors/ti-icons/css/themify-icons.css">
   <link rel="stylesheet" href="admin/vendors/css/vendor.bundle.base.css">
   <link rel="stylesheet" href="css/sweetalert2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
   <!-- endinject -->
   <!-- Plugin css for this page -->
   <link rel="stylesheet" href="admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
@@ -335,26 +336,54 @@
               </ul>
             </div>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-              <i class="icon-bar-graph menu-icon"></i>
-              <span class="menu-title">My Orders</span>
-              
-            </a>
-             <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="icon-head menu-icon"></i>
-              <span class="menu-title">Payment</span>
+            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+              <i class="icon-paper menu-icon"></i>
+              <span class="menu-title">My Carts</span>
               <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                {{-- <li class="nav-item"><a class="nav-link" href={{ url('category') }}>Category</a></li> --}}
+                <li class="nav-item"><a class="nav-link" href={{ url('cart_user') }}>Carts</a></li>
+              </ul>
+            </div>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="icon-bell menu-icon"></i>
-              <span class="menu-title">Notification</span>
+            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+              <i class="icon-bar-graph menu-icon"></i>
+              <span class="menu-title">My Orders</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="form-elements">
+              <ul class="nav flex-column sub-menu">
+                {{-- <li class="nav-item"><a class="nav-link" href={{ url('category') }}>Category</a></li> --}}
+                <li class="nav-item"><a class="nav-link" href={{ url('user-order') }}>Orders</a></li>
+              </ul>
+            </div>
           </li>
-        
+
+            {{-- <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="{{ url('user-order') }}" aria-expanded="false" aria-controls="charts">
+                <i class="icon-bar-graph menu-icon"></i>
+                <span class="menu-title">My Orders</span>
+              </a>
+            </li> --}}
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <i class="icon-head menu-icon"></i>
+                <span class="menu-title">Payment</span>
+                <i class="menu-arrow"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                <i class="icon-bell menu-icon"></i>
+                <span class="menu-title">Notification</span>
+              </a>
+            </li>
           </li>
        
          

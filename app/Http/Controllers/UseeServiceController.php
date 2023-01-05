@@ -4,8 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Models\Service;
 use App\Http\Requests\UserServiceRequest;
+use App\Models\Cart;
 use Illuminate\Http\Request;
 use PhpParser\Node\Expr\FuncCall;
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
+// use App\Models\User;
 
 class UseeServiceController extends Controller
 {
@@ -17,6 +21,38 @@ class UseeServiceController extends Controller
             // 'kategori' => $kategori,
             'service'=>$service
         ]);
+    }
+
+    // public function addChart()
+    // {
+    //     return 'hello';
+    // }
+
+    public function addChart(Request $request, $service_id)
+    {
+        if(Auth::id())
+        {
+            $user = auth()->user();
+            // $service = DB::table('services')->find($service_id);
+            $service = Service::find($service_id);
+            $cart = new Cart;
+
+            $cart->name = $user->name;
+            $cart->email = $user->email;
+            $cart->quantity = $request->quantity;
+            $cart->price = $service->price;
+            $cart->image = $service->image;
+            $cart->category = $service->category;
+            $cart->product = $service->product;
+
+            $cart->save();
+            // return redirect('service_user')->with('message', 'Service Added Succesfully');
+            return redirect()->back()->with('message','Product Added Successfully');
+        }
+        else
+        {
+            return redirect('login');        
+        }
     }
 
     // public function store(UserServiceRequest $request)

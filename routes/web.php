@@ -10,6 +10,8 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ContactNotifController;
 use App\Http\Controllers\DashboardAdminController;
+use App\Http\Controllers\CartUserController;
+use App\Http\Controllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -186,12 +188,21 @@ Route::get('/dashboard-user', function () {
 });
 
 
-// Route::get('/service_user', function () {
-//     return view('user.home.service');
+// Route::get('/test', function () {
+//     return view('coba_test');
 // });
 
 
 // fetch file buat rout fetchnya
 // Route::get('/home{service}', [App\Http\Controllers\HomeController::class, 'service']);
 Route::get('service_user', [App\Http\Controllers\UseeServiceController::class, 'index']);
+Route::post('/addChart{service_id}', [App\Http\Controllers\UseeServiceController::class, 'addChart']);
 
+Route::get('cart_user', [App\Http\Controllers\CartUserController::class, 'index']);
+Route::get('cart-delete{id}', [App\Http\Controllers\CartUserController::class, 'delete']);
+
+Route::post('order', [App\Http\Controllers\OrderController::class, 'addOrder']);
+Route::get('user-order', [App\Http\Controllers\OrderController::class, 'index']);
+Route::get('admin-order', [App\Http\Controllers\OrderController::class, 'viewAdmin']);
+Route::get('status-update{id}', [App\Http\Controllers\OrderController::class, 'statusUpdate']);
+Route::get('order-delete{id}', [App\Http\Controllers\OrderController::class, 'deleteOrder']);
