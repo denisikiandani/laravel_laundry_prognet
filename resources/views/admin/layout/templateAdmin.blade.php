@@ -13,6 +13,12 @@
         margin: 0 auto;
     }
   </style>
+
+  <style>
+    .swal2-popup{
+      font-size: 1.6em;
+    }
+  </style>
   <link rel="stylesheet" href="admin/vendors/feather/feather.css">
   <link rel="stylesheet" href="admin/vendors/ti-icons/css/themify-icons.css">
   <link rel="stylesheet" href="admin/vendors/css/vendor.bundle.base.css">
@@ -24,6 +30,7 @@
   <link rel="stylesheet" type="text/css" href="admin/js/select.dataTables.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
   <link rel="stylesheet" href="admin/css/vertical-layout-light/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="admin/images/logo.png" />
@@ -265,7 +272,7 @@
             </div> --}}
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+            <a class="nav-link" href={{ url('analysis') }}>
               <i class="icon-bar-graph menu-icon"></i>
               <span class="menu-title">Analysis</span>
               
@@ -352,7 +359,7 @@
   <script src="admin/js/todolist.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  {{-- <script src="admin/js/chart.js"></script> --}}
+  <script src="admin/js/chart.js"></script>
 
   <script src="admin/js/off-canvas.js"></script>
   <script src="admin/js/hoverable-collapse.js"></script>
@@ -360,6 +367,7 @@
   <script src="admin/js/settings.js"></script>
   <script src="admin/js/todolist.js"></script>
   <script src="js/sweetalert2.js"></script>
+  <script src="js/sweetalert2.min.js"></script>
 
   {{-- <script>Swal.fire('Any fool can use a computer')</script> --}}
   <!-- endinject -->
@@ -410,6 +418,8 @@
 
 
 </script> --}}
+<script>
+</script>
 </body>
 
 </html>

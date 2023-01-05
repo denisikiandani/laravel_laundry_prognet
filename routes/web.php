@@ -157,7 +157,7 @@ Route::controller(HomeController::class)->group(function(){;
 
 Route::middleware('auth', 'isAdmin')->group(function(){
     Route::get('dashboard', [App\Http\Controllers\DashboardAdminController::class, 'index']);
-
+    Route::get('/analysis', [App\Http\Controllers\DashboardAdminController::class, 'analisis']);
     // Route::get('category', [App\Http\Controllers\Admin\CategoryController::class, 'index']);
     // Route::get('category/create', [App\Http\Controllers\Admin\CategoryController::class, 'create']);
     // Route::post('category-store', [App\Http\Controllers\Admin\CategoryController::class, 'store']);

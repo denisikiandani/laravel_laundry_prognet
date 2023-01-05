@@ -22,6 +22,11 @@
                 </div>
               </div>
 
+
+            {{-- <div class="flash" data-flash="{{ $this->session->flashdata('Service Update Succesfully') }}" > --}}
+
+
+            </div>
               {{-- <div class="flash-data" data-flashdata={{ $this->session->flashdata('flash') }}></div> --}}
             <br>
             <div class="table-responsive"> 
