@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\UserAdminController;
 use App\Http\Controllers\ContactNotifController;
 use App\Http\Controllers\DashboardAdminController;
 
@@ -176,6 +177,15 @@ Route::middleware('auth', 'isAdmin')->group(function(){
             Route::get('/service-edit-{service}', 'edit');
             Route::put('/service-update-{service}', 'update');
             Route::get('/service-delete-{service}', 'delete');
+           // Route::get('category/edit/{id}', 'edit');
+        });
+        
+        Route::controller(UserAdminController::class)->group(function(){
+            Route::get('/users', 'index');
+            Route::get('/users-view-{user}', 'view');
+            // Route::get('/contact-notif-view-{contact}', 'view');
+            // Route::put('/service-update-{service}', 'update');
+            Route::get('/users-delete-{user}', 'delete');
            // Route::get('category/edit/{id}', 'edit');
         });
 
