@@ -286,14 +286,14 @@
             </div>
           </li>
 
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href={{ url('analysis') }}>
               <i class="icon-bar-graph menu-icon"></i>
               <span class="menu-title">Analysis</span>
               
             </a>
            
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" href={{ url('contact-notif') }}>
               <i class="icon-bell menu-icon"></i>
@@ -301,13 +301,13 @@
               
             </a>
            
-          </li>
+          {{-- </li>
           <li class="nav-item">
             <a class="nav-link" href={{ url('contact-notif') }}>
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Orders</span>
             </a>
-          </li>
+          </li> --}}
 
           <li class="nav-item">
             <a class="nav-link" href={{ url('users') }}>

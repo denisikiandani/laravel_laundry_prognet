@@ -318,7 +318,7 @@
                 <span class="menu-title">My Orders</span>
               </a>
             </li> --}}
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
                 <i class="icon-head menu-icon"></i>
                 <span class="menu-title">Payment</span>
@@ -334,7 +334,7 @@
           </li>
        
          
-          </li>
+          </li> --}}
         </ul>
       </nav>
 
