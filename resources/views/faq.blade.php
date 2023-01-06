@@ -30,9 +30,6 @@
     <!-- CSS Link -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- custom js file link  -->
-    <script src="js/pricing-popup.js" defer></script>
-
     <!-- Font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +38,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <!-- Title dan Icon -->
-    <title>Tadika Laundry</title>
+    <title>Our FAQs</title>
     <link rel="icon" href="img/logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
