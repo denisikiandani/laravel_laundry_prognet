@@ -80,7 +80,7 @@
                           <a class="nav-link nav-l " href="/pricing" style="color: #0455c0">Pricing</a>
                         </li>
                         <li class="nav-item mx-0.1">
-                          <a class="nav-link nav-l " href="/faq" style="color: #0455c0">FAQ</a>
+                          <a class="nav-link nav-l " href="/faq" style="color: #0455c0">FAQs</a>
                         </li>
                         <li class="nav-item mx-0.1">
                           <a class="nav-link nav-l " href="/contact-create" style="color: #0455c0">Contact</a>
@@ -111,9 +111,32 @@
         <div class = "products">
             <div class = "container">
                 <h1 class = "lg-title" data-aos="fade-up">Our Pricing</h1>
-                <p class = "text-light">Every sheets of yours will be shown here. Check the price now and order immediately.</p>
+                <p class = "text-light">
+                    Every sheets of yours will be shown here. Check the price now and order immediately.
+                </p>
 
                 <div class = "product-items">
+                    <!--<div class="product-card">
+                        <h2 class="name">Nike Shoe</h2>
+                        <span class="price">$120.00</span>
+                        <a class="img/1.png" class="product-img" alt="">
+                      </div>
+                      <div class="popup-view">
+                        <div class="popup-card">
+                          <a><i class="fas fa-times close-btn"></i></a>
+                          <div class="product-img">
+                            <img src="img/1.png" alt="">
+                          </div>
+                          <div class="info">
+                            <h2>Nike Shoe<br><span>Men's Sport</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <span class="price">$120.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                          </div>
+                        </div>
+                      </div>-->
+
                     <!-- single product 1 -->
                     <div class = "product" data-aos="zoom-in">
                         <div class = "product-content" data-aos="zoom-out">
@@ -411,6 +434,158 @@
                         </div>
                     </div>
                     <!-- end of single product 8 -->
+                    <!-- single product 9 -->
+        <!--        <div class = "product" data-aos="zoom-in">
+                        <div class = "product-content" data-aos="zoom-out">
+                            <div class = "product-img" data-aos="zoom-in-up">
+                                <img src = "img/item-9.png" alt = "product image">
+                            </div>
+                            <div class = "product-btns">
+                                <a href="/login">
+                                    <button type = "button" class = "btn-cart"> add
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                </a>
+                                <button type = "button" class = "btn-buy"> detail
+                                    <span><i class = "fas fa-tint"></i></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">shower cloth</h2>
+                                <!--<div class = "rating">
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "far fa-star"></i></span>
+                                </div>-->
+        <!--                    </div>
+                            <a href = "#" class = "product-name">towel</a>
+                            <!--<p class = "product-price-disc">Rp20.000</p>-->
+        <!--                    <p class = "product-price">Rp10.000</p>
+                        </div>
+                        <!--<div class = "off-info">
+                            <h2 class = "sm-title">35% off</h2>-->
+        <!--                </div>
+                    </div>
+                    <!-- end of single product 9 -->
+                    <!-- single product 10 -->
+        <!--            <div class = "product" data-aos="zoom-in">
+                        <div class = "product-content" data-aos="zoom-out">
+                            <div class = "product-img" data-aos="zoom-in-up">
+                                <img src = "img/item-8.png" alt = "product image">
+                            </div>
+                            <div class = "product-btns">
+                                <a href="/login">
+                                    <button type = "button" class = "btn-cart"> add
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                </a>
+                                <button type = "button" class = "btn-buy"> detail
+                                    <span><i class = "fas fa-tint"></i></span>
+                                </button>
+                            </div>
+    <!--                    </div>
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">shower cloth</h2>
+                                <!--<div class = "rating">
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "far fa-star"></i></span>
+                                </div>-->
+    <!--                        </div>
+                            <a href = "#" class = "product-name">towel</a>
+                            <!--<p class = "product-price-disc">Rp20.000</p>-->
+    <!--                        <p class = "product-price">Rp10.000</p>
+                        </div>
+                        <!--<div class = "off-info">
+                            <h2 class = "sm-title">35% off</h2>-->
+    <!--                    </div>
+    <!--                </div>
+                    <!-- end of single product 10 -->
+                    <!-- single product 11 -->
+    <!--                <div class = "product" data-aos="zoom-in">
+                        <div class = "product-content" data-aos="zoom-out">
+                            <div class = "product-img" data-aos="zoom-in-up">
+                                <img src = "img/item-8.png" alt = "product image">
+                            </div>
+                            <div class = "product-btns">
+                                <a href="/login">
+                                    <button type = "button" class = "btn-cart"> add
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                </a>
+                                <button type = "button" class = "btn-buy"> detail
+                                    <span><i class = "fas fa-tint"></i></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">shower cloth</h2>
+                                <!--<div class = "rating">
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "far fa-star"></i></span>
+                                </div>-->
+        <!--                    </div>
+                            <a href = "#" class = "product-name">towel</a>
+                            <!--<p class = "product-price-disc">Rp20.000</p>-->
+        <!--                    <p class = "product-price">Rp10.000</p>
+                        </div>
+                        <!--<div class = "off-info">
+                            <h2 class = "sm-title">35% off</h2>-->
+        <!--                </div>
+                    </div>
+                    <!-- end of single product 11 -->
+                    <!-- single product 12 -->
+        <!--            <div class = "product" data-aos="zoom-in">
+                        <div class = "product-content" data-aos="zoom-out">
+                            <div class = "product-img" data-aos="zoom-in-up">
+                                <img src = "img/item-8.png" alt = "product image">
+                            </div>
+                            <div class = "product-btns">
+                                <a href="/login">
+                                    <button type = "button" class = "btn-cart"> add
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                </a>
+                                <button type = "button" class = "btn-buy"> detail
+                                    <span><i class = "fas fa-tint"></i></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">shower cloth</h2>
+                                <!--<div class = "rating">
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "fas fa-star"></i></span>
+                                    <span><i class = "far fa-star"></i></span>
+                                </div>-->
+        <!--                    </div>
+                            <a href = "#" class = "product-name">towel</a>
+                            <!--<p class = "product-price-disc">Rp20.000</p>-->
+        <!--                    <p class = "product-price">Rp10.000</p>
+                        </div>
+                        <!--<div class = "off-info">
+                            <h2 class = "sm-title">35% off</h2>-->
+        <!--                </div>
+                    </div>
+                    <!-- end of single product 12 -->
                 </div>
             </div>
         </div>

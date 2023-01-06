@@ -88,6 +88,10 @@
         </div>
     </div>
 </div> --}}
+<head>
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+</head>
 
 <div class="container">
     <div class="container">
@@ -214,7 +218,7 @@
                 {{-- <li class="nav-item"> --}}
                 @if (Route::has('login'))
                 <p style="font-size: 1.8rem; ">Already have an account? 
-                    <a style="font-size: 1.8rem; color: #828ea6" class="nav-link" href="{{ route('login') }}">Login.</a>
+                    <a style="font-size: 1.8rem; color: #828ea6; text-decoration: none" class="nav-link" href="{{ route('login') }}">Login.</a>
                 </p>
                 {{-- </li> --}}
                 @endif
